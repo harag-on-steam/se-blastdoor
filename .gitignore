@@ -1,0 +1,6 @@
+.project
+*.hko
+*.fbx
+*.7z
+_Backup/
+/thumb*.*

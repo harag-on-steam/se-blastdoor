@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Model Name="Default">
+  <Parameter Name="Centered">false</Parameter>
+  <Parameter Name="RescaleFactor">1.0</Parameter>
+  <Parameter Name="RescaleToLengthInMeters">false</Parameter>
+  <Parameter Name="SpecularPower">10</Parameter>
+  <Parameter Name="SpecularShininess">0.8</Parameter>
+  <Material Name="Material__25__Map__0">
+    <Parameter Name="SpecularIntensity">0</Parameter>
+    <Parameter Name="SpecularPower">2</Parameter>
+    <Parameter Name="DiffuseColorX">255</Parameter>
+    <Parameter Name="DiffuseColorY">255</Parameter>
+    <Parameter Name="DiffuseColorZ">255</Parameter>
+    <Parameter Name="Texture">Textures\Models\Cubes\DoorBlock_de.dds</Parameter>
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="NormalTexture" />
+  </Material>
+  <Material Name="Armor_contruction__Map__1">
+    <Parameter Name="SpecularIntensity">0</Parameter>
+    <Parameter Name="SpecularPower">2</Parameter>
+    <Parameter Name="DiffuseColorX">255</Parameter>
+    <Parameter Name="DiffuseColorY">255</Parameter>
+    <Parameter Name="DiffuseColorZ">255</Parameter>
+    <Parameter Name="Texture">Textures\Models\Cubes\armor\light_armor_construction_de.dds</Parameter>
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="NormalTexture" />
+  </Material>
+</Model>
