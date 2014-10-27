@@ -1221,6 +1221,7 @@
       <DisassembleRatio>2.5</DisassembleRatio>
       <EdgeType>Light</EdgeType>
     </Definition>
+	
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1267,6 +1268,7 @@
       <DisassembleRatio>2.5</DisassembleRatio>
       <EdgeType>Light</EdgeType>
     </Definition>
+	
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1312,6 +1314,7 @@
       <DisassembleRatio>2.5</DisassembleRatio>
       <EdgeType>Light</EdgeType>
     </Definition>
+	
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1363,7 +1366,249 @@
       <DisassembleRatio>2.5</DisassembleRatio>
       <EdgeType>Light</EdgeType>
     </Definition>
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeBlastDoorBaseLongSlope</SubtypeId>
+      </Id>
+      <DisplayName>Blast door block, long slope</DisplayName>
+      <Icon>Textures\GUI\Icons\BaseLongSlope.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Large\Base\LongSlope.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="125" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back"   StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Left"   StartX="0.00" StartY="0.00" EndX="0.66" EndY="0.20" />
+        <MountPoint Side="Left"   StartX="0.66" StartY="0.00" EndX="1.33" EndY="0.55" />
+        <MountPoint Side="Left"   StartX="1.33" StartY="0.00" EndX="2.00" EndY="0.90" />
+        <MountPoint Side="Right"  StartX="0.00" StartY="0.00" EndX="0.66" EndY="0.90" />
+        <MountPoint Side="Right"  StartX="0.66" StartY="0.00" EndX="1.33" EndY="0.55" />
+        <MountPoint Side="Right"  StartX="1.33" StartY="0.00" EndX="2.00" EndY="0.20" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
+      </MountPoints>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BlockPairName>BlastDoorBaseLongSlope</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <DeformationRatio>0.24</DeformationRatio>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+	</Definition>
 
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SmallBlastDoorBaseLongSlope</SubtypeId>
+      </Id>
+      <DisplayName>Blast door block, long slope</DisplayName>
+      <Icon>Textures\GUI\Icons\BaseLongSlope.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Small\Base\LongSlope.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="3" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back"   StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Left"   StartX="0.00" StartY="0.00" EndX="0.66" EndY="0.20" />
+        <MountPoint Side="Left"   StartX="0.66" StartY="0.00" EndX="1.33" EndY="0.55" />
+        <MountPoint Side="Left"   StartX="1.33" StartY="0.00" EndX="2.00" EndY="0.90" />
+        <MountPoint Side="Right"  StartX="0.00" StartY="0.00" EndX="0.66" EndY="0.90" />
+        <MountPoint Side="Right"  StartX="0.66" StartY="0.00" EndX="1.33" EndY="0.55" />
+        <MountPoint Side="Right"  StartX="1.33" StartY="0.00" EndX="2.00" EndY="0.20" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
+      </MountPoints>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BlockPairName>BlastDoorBaseLongSlope</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <DeformationRatio>0.24</DeformationRatio>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+	</Definition>
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeBlastDoorBaseLongCorner</SubtypeId>
+      </Id>
+      <DisplayName>Blast door block, long corner</DisplayName>
+      <Icon>Textures\GUI\Icons\BaseLongCorner.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Large\Base\LongCorner.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="80" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back"   StartX="0.00" StartY="0.00" EndX="0.20" EndY="0.20" />
+        <MountPoint Side="Back"   StartX="0.20" StartY="0.00" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Back"   StartX="0.80" StartY="0.00" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Right"  StartX="0.00" StartY="0.00" EndX="0.66" EndY="0.90" />
+        <MountPoint Side="Right"  StartX="0.66" StartY="0.00" EndX="1.33" EndY="0.55" />
+        <MountPoint Side="Right"  StartX="1.33" StartY="0.00" EndX="2.00" EndY="0.20" />
+        <MountPoint Side="Bottom" StartX="0.80" StartY="0.00" EndX="1.00" EndY="0.66" />
+        <MountPoint Side="Bottom" StartX="0.45" StartY="0.66" EndX="1.00" EndY="1.33" />
+        <MountPoint Side="Bottom" StartX="0.10" StartY="1.33" EndX="1.00" EndY="2.00" />
+      </MountPoints>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BlockPairName>BlastDoorBaseLongCorner</BlockPairName>
+      <MirroringX>HalfZ</MirroringX>
+      <MirroringY>ZHalfZ</MirroringY>
+      <MirroringZ>XMinusHalfZ</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <DeformationRatio>0.24</DeformationRatio>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+	</Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SmallBlastDoorBaseLongCorner</SubtypeId>
+      </Id>
+      <DisplayName>Blast door block, long corner</DisplayName>
+      <Icon>Textures\GUI\Icons\BaseLongCorner.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Small\Base\LongCorner.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="3" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back"   StartX="0.00" StartY="0.00" EndX="0.20" EndY="0.20" />
+        <MountPoint Side="Back"   StartX="0.20" StartY="0.00" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Back"   StartX="0.80" StartY="0.00" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Right"  StartX="0.00" StartY="0.00" EndX="0.66" EndY="0.90" />
+        <MountPoint Side="Right"  StartX="0.66" StartY="0.00" EndX="1.33" EndY="0.55" />
+        <MountPoint Side="Right"  StartX="1.33" StartY="0.00" EndX="2.00" EndY="0.20" />
+        <MountPoint Side="Bottom" StartX="0.80" StartY="0.00" EndX="1.00" EndY="0.66" />
+        <MountPoint Side="Bottom" StartX="0.45" StartY="0.66" EndX="1.00" EndY="1.33" />
+        <MountPoint Side="Bottom" StartX="0.10" StartY="1.33" EndX="1.00" EndY="2.00" />
+      </MountPoints>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BlockPairName>BlastDoorBaseLongCorner</BlockPairName>
+      <MirroringX>HalfZ</MirroringX>
+      <MirroringY>ZHalfZ</MirroringY>
+      <MirroringZ>XMinusHalfZ</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <DeformationRatio>0.24</DeformationRatio>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+	</Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeBlastDoorBaseLongInvCorner</SubtypeId>
+      </Id>
+      <DisplayName>Blast door block, long inv. corner</DisplayName>
+      <Icon>Textures\GUI\Icons\BaseLongInvCorner.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Large\Base\LongInvCorner.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="125" />
+        <Component Subtype="SteelPlate" Count="25" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back"   StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Left"   StartX="0.00" StartY="0.00" EndX="0.66" EndY="0.20" />
+        <MountPoint Side="Left"   StartX="0.66" StartY="0.00" EndX="1.33" EndY="0.55" />
+        <MountPoint Side="Left"   StartX="1.33" StartY="0.00" EndX="2.00" EndY="0.90" />
+        <MountPoint Side="Top"    StartX="0.20" StartY="0.00" EndX="1.00" EndY="0.66" />
+        <MountPoint Side="Top"    StartX="0.55" StartY="0.66" EndX="1.00" EndY="1.33" />
+        <MountPoint Side="Top"    StartX="0.90" StartY="1.33" EndX="1.00" EndY="2.00" />
+        <MountPoint Side="Front"  StartX="0.80" StartY="0.00" EndX="1.00" EndY="0.20" />
+        <MountPoint Side="Front"  StartX="0.20" StartY="0.00" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Front"  StartX="0.00" StartY="0.00" EndX="0.20" EndY="1.00" />
+        <MountPoint Side="Right"  StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
+      </MountPoints>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BlockPairName>BlastDoorBaseLongInvCorner</BlockPairName>
+      <MirroringX>HalfZ</MirroringX>
+      <MirroringY>ZHalfZ</MirroringY>
+      <MirroringZ>XMinusHalfZ</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <DeformationRatio>0.24</DeformationRatio>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+	</Definition>
+	
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>SmallBlastDoorBaseLongInvCorner</SubtypeId>
+      </Id>
+      <DisplayName>Blast door block, long inv. corner</DisplayName>
+      <Icon>Textures\GUI\Icons\BaseLongInvCorner.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Small\Base\LongInvCorner.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back"   StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Left"   StartX="0.00" StartY="0.00" EndX="0.66" EndY="0.20" />
+        <MountPoint Side="Left"   StartX="0.66" StartY="0.00" EndX="1.33" EndY="0.55" />
+        <MountPoint Side="Left"   StartX="1.33" StartY="0.00" EndX="2.00" EndY="0.90" />
+        <MountPoint Side="Top"    StartX="0.20" StartY="0.00" EndX="1.00" EndY="0.66" />
+        <MountPoint Side="Top"    StartX="0.55" StartY="0.66" EndX="1.00" EndY="1.33" />
+        <MountPoint Side="Top"    StartX="0.90" StartY="1.33" EndX="1.00" EndY="2.00" />
+        <MountPoint Side="Front"  StartX="0.80" StartY="0.00" EndX="1.00" EndY="0.20" />
+        <MountPoint Side="Front"  StartX="0.20" StartY="0.00" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Front"  StartX="0.00" StartY="0.00" EndX="0.20" EndY="1.00" />
+        <MountPoint Side="Right"  StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
+      </MountPoints>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BlockPairName>BlastDoorBaseLongInvCorner</BlockPairName>
+      <MirroringX>HalfZ</MirroringX>
+      <MirroringY>ZHalfZ</MirroringY>
+      <MirroringZ>XMinusHalfZ</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <DeformationRatio>0.24</DeformationRatio>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+	</Definition>
+	
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>

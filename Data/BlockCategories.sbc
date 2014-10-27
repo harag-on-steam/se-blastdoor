@@ -74,6 +74,12 @@
 		<string>SmallBlastDoorInnerCrossingT</string>
 		<string>LargeBlastDoorInnerCrossingL</string>
 		<string>SmallBlastDoorInnerCrossingL</string>
+		<string>LargeBlastDoorBaseLongSlope</string>
+		<string>SmallBlastDoorBaseLongSlope</string>
+		<string>LargeBlastDoorBaseLongCorner</string>
+		<string>SmallBlastDoorBaseLongCorner</string>
+		<string>LargeBlastDoorBaseLongInvCorner</string>
+		<string>SmallBlastDoorBaseLongInvCorner</string>		
 	  </ItemIds>
     </Category>
 </CategoryClasses>
