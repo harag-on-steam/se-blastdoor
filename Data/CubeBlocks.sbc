@@ -1023,6 +1023,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>8</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
+      <DeformationRatio>0.0</DeformationRatio>
     </Definition>
 
     <Definition>
@@ -1072,6 +1073,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
+      <DeformationRatio>0.0</DeformationRatio>
     </Definition>
     <Definition>
       <Id>
@@ -1123,6 +1125,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
+      <DeformationRatio>0.0</DeformationRatio>
     </Definition>
 	
     <Definition>
@@ -1181,6 +1184,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>7</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
+      <DeformationRatio>0.0</DeformationRatio>
     </Definition>
 	
     <Definition>
@@ -1216,7 +1220,7 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\armor\SquarePlateConstruction_2.mwm" RandomOrientation="true"/>
       </BuildProgressModels>
       <BlockPairName>BlastDoorCube</BlockPairName>
-      <DeformationRatio>0.24</DeformationRatio>
+      <DeformationRatio>0.0</DeformationRatio>
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <EdgeType>Light</EdgeType>
@@ -1263,7 +1267,7 @@
       <BlockPairName>BlastDoorSlope</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
-      <DeformationRatio>0.24</DeformationRatio>
+      <DeformationRatio>0.0</DeformationRatio>
       <BuildTimeSeconds>2</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <EdgeType>Light</EdgeType>
@@ -1309,7 +1313,7 @@
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
-      <DeformationRatio>0.24</DeformationRatio>
+      <DeformationRatio>0.0</DeformationRatio>
       <BuildTimeSeconds>2</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <EdgeType>Light</EdgeType>
@@ -1361,7 +1365,7 @@
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfZ</MirroringZ>
-      <DeformationRatio>0.24</DeformationRatio>
+      <DeformationRatio>0.0</DeformationRatio>
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <EdgeType>Light</EdgeType>
@@ -1400,7 +1404,7 @@
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <DeformationRatio>0.24</DeformationRatio>
+      <DeformationRatio>0.0</DeformationRatio>
       <BuildTimeSeconds>7</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
 	</Definition>
@@ -1438,7 +1442,7 @@
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <DeformationRatio>0.24</DeformationRatio>
+      <DeformationRatio>0.0</DeformationRatio>
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
 	</Definition>
@@ -1478,7 +1482,7 @@
       <MirroringY>ZHalfZ</MirroringY>
       <MirroringZ>XMinusHalfZ</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <DeformationRatio>0.24</DeformationRatio>
+      <DeformationRatio>0.0</DeformationRatio>
       <BuildTimeSeconds>7</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
 	</Definition>
