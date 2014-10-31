@@ -42,8 +42,8 @@
         <string>SmallBlockBlastDoorSlanted</string>
         <string>LargeBlockBlastDoorSlantedShort</string>
         <string>SmallBlockBlastDoorSlantedShort</string>
-        <string>LargeBlockBlastDoorSlantedNarrow</string>
-        <string>SmallBlockBlastDoorSlantedNarrow</string>
+        <string>LargeBlockBlastDoorSlantedSide</string>
+        <string>SmallBlockBlastDoorSlantedSide</string>
         <string>LargeBlockBlastDoorCube</string>
         <string>SmallBlockBlastDoorCube</string>
         <string>LargeBlockArmorPillar</string>
