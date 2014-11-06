@@ -5,13 +5,13 @@
   <Parameter Name="RescaleToLengthInMeters">false</Parameter>
   <Parameter Name="SpecularPower">10</Parameter>
   <Parameter Name="SpecularShininess">0.8</Parameter>
-  <Material Name="BlastDoorConcrete">
+  <Material Name="Migrated">
     <Parameter Name="SpecularIntensity">0</Parameter>
     <Parameter Name="SpecularPower">2</Parameter>
     <Parameter Name="DiffuseColorX">255</Parameter>
     <Parameter Name="DiffuseColorY">255</Parameter>
     <Parameter Name="DiffuseColorZ">255</Parameter>
-    <Parameter Name="Texture">Textures\Models\Cubes\DoorBlock_de.dds</Parameter>
+    <Parameter Name="Texture">Textures\MigrationWarning.dds</Parameter>
     <Parameter Name="Technique">MESH</Parameter>
     <Parameter Name="NormalTexture" />
   </Material>
