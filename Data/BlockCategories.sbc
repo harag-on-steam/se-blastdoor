@@ -80,6 +80,16 @@
 		<string>SmallBlastDoorBaseLongCorner</string>
 		<string>LargeBlastDoorBaseLongInvCorner</string>
 		<string>SmallBlastDoorBaseLongInvCorner</string>		
+        <string>LargeBlastDoorInsetRampSlope</string>
+        <string>SmallBlastDoorInsetRampSlope</string>
+        <string>LargeBlastDoorInsetRampLeft</string>
+        <string>SmallBlastDoorInsetRampLeft</string>
+        <string>LargeBlastDoorInsetRampRight</string>
+        <string>SmallBlastDoorInsetRampRight</string>
+        <string>LargeBlastDoorInsetRampBottom</string>
+        <string>SmallBlastDoorInsetRampBottom</string>
+        <string>LargeBlastDoorInsetRampBack</string>
+        <string>SmallBlastDoorInsetRampBack</string>
 	  </ItemIds>
     </Category>
 </CategoryClasses>
