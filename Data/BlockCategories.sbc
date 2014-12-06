@@ -56,12 +56,6 @@
 		<string>SmallBlockBlastDoorCorner</string>
 		<string>LargeBlockBlastDoorCornerInv</string>
 		<string>SmallBlockBlastDoorCornerInv</string>
-		<string>SmallBlastDoorTipStraightShort</string>
-		<string>LargeBlastDoorTipStraightShort</string>
-		<string>SmallBlastDoorTipStraightLong</string>
-		<string>LargeBlastDoorTipStraightLong</string>
-		<string>SmallBlastDoorTipLongLong</string>
-		<string>LargeBlastDoorTipLongLong</string>
 		<string>LargeBlastDoorEdgeCrossingX</string>
 		<string>SmallBlastDoorEdgeCrossingX</string>
 		<string>LargeBlastDoorEdgeCrossingT</string>
