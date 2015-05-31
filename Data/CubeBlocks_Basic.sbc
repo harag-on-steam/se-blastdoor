@@ -1,0 +1,392 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlockBlastDoorCube</SubtypeId>
+			</Id>
+			<DisplayName>Blast door block</DisplayName>
+			<Icon>Textures\Icons\BaseCube.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>Cube</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<CubeDefinition>
+				<CubeTopology>Box</CubeTopology>
+				<ShowEdges>false</ShowEdges>
+				<Sides>
+					<Side Model="Models\Base\Face_Square_Large.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_Square_Large.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_Square_Large.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_Square_Large.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_Square_Large.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_Square_Large.mwm" PatternWidth="1" PatternHeight="1" />
+				</Sides>
+			</CubeDefinition>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\armor\SquarePlateConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\armor\SquarePlateConstruction_2.mwm" RandomOrientation="true" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\armor\SquarePlateConstruction_3.mwm" RandomOrientation="true" />
+			</BuildProgressModels>
+			<BlockPairName>BlastDoorCube</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>8</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<DeformationRatio>0.0</DeformationRatio>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlockBlastDoorSlope</SubtypeId>
+			</Id>
+			<DisplayName>Blast door block slanted</DisplayName>
+			<Icon>Textures\Icons\BaseSlope.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>Cube</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<CubeDefinition>
+				<CubeTopology>Slope</CubeTopology>
+				<ShowEdges>false</ShowEdges>
+				<Sides>
+					<Side Model="Models\Base\Face_Slope_Large.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_LeftTriangle_Large.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_RightTriangle_Large.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_Square_Large.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_Square_Large.mwm" PatternWidth="1" PatternHeight="1" />
+				</Sides>
+			</CubeDefinition>
+			<Components>
+				<Component Subtype="SteelPlate" Count="60" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+				<MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
+				<MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
+				<MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\armor\SlopePlateConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\armor\SlopePlateConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\armor\SlopePlateConstruction_3.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>BlastDoorSlope</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>5</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<DeformationRatio>0.0</DeformationRatio>
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlockBlastDoorCorner</SubtypeId>
+			</Id>
+			<DisplayName>Blast door block corner</DisplayName>
+			<Icon>Textures\Icons\BaseCorner.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>Cube</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<CubeDefinition>
+				<CubeTopology>Corner</CubeTopology>
+				<ShowEdges>false</ShowEdges>
+				<Sides>
+					<Side Model="Models\Base\Face_LeftTriangle_Large.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_RightTriangle_Large.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_CenterTriangle_Large.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_LeftTriangle_Large.mwm" PatternWidth="1" PatternHeight="1" />
+				</Sides>
+			</CubeDefinition>
+			<Components>
+				<Component Subtype="SteelPlate" Count="60" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+				<MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
+				<MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
+				<MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
+				<MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
+				<MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.2" EndY="0.2" />
+				<MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
+				<MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\armor\FaceTrianglePlateConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\armor\FaceTrianglePlateConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\armor\FaceTrianglePlateConstruction_3.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>BlastDoorCorner</BlockPairName>
+			<MirroringX>YHalfX</MirroringX>
+			<MirroringY>ZHalfY</MirroringY>
+			<MirroringZ>YHalfY</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<DeformationRatio>0.0</DeformationRatio>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlockBlastDoorCornerInv</SubtypeId>
+			</Id>
+			<DisplayName>Blast door block inverted corner</DisplayName>
+			<Icon>Textures\Icons\BaseInvCorner.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>Cube</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<CubeDefinition>
+				<CubeTopology>InvCorner</CubeTopology>
+				<ShowEdges>false</ShowEdges>
+				<Sides>
+					<Side Model="Models\Base\Face_CenterInvTriangle_Large.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_RightTriangle_Large.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_LeftTriangle_Large.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_LeftTriangle_Large.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_Square_Large.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_Square_Large.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_Square_Large.mwm" PatternWidth="1" PatternHeight="1" />
+				</Sides>
+			</CubeDefinition>
+			<Components>
+				<Component Subtype="SteelPlate" Count="100" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+				<MountPoint Side="Right" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
+				<MountPoint Side="Right" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
+				<MountPoint Side="Front" StartX="0" StartY="0.8" EndX="0.2" EndY="1" />
+				<MountPoint Side="Front" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
+				<MountPoint Side="Front" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\armor\InvFaceTrianglePlateConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\armor\InvFaceTrianglePlateConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\armor\InvFaceTrianglePlateConstruction_3.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>BlastDoorInvCorner</BlockPairName>
+			<MirroringX>YHalfX</MirroringX>
+			<MirroringY>ZHalfY</MirroringY>
+			<MirroringZ>YHalfZ</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>7</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<DeformationRatio>0.0</DeformationRatio>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlockBlastDoorCube</SubtypeId>
+			</Id>
+			<DisplayName>Blast door block</DisplayName>
+			<Icon>Textures\Icons\BaseCube.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>Cube</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<CubeDefinition>
+				<CubeTopology>Box</CubeTopology>
+				<ShowEdges>false</ShowEdges>
+				<Sides>
+					<Side Model="Models\Base\Face_Square_Small.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_Square_Small.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_Square_Small.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_Square_Small.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_Square_Small.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_Square_Small.mwm" PatternWidth="1" PatternHeight="1" />
+				</Sides>
+			</CubeDefinition>
+			<Components>
+				<Component Subtype="SteelPlate" Count="3" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\armor\SquarePlateConstruction_1.mwm" RandomOrientation="true"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\armor\SquarePlateConstruction_2.mwm" RandomOrientation="true"/>
+			</BuildProgressModels>
+			<BlockPairName>BlastDoorCube</BlockPairName>
+			<DeformationRatio>0.0</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<EdgeType>Light</EdgeType>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlockBlastDoorSlope</SubtypeId>
+			</Id>
+			<DisplayName>Blast door block slanted</DisplayName>
+			<Icon>Textures\Icons\BaseSlope.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>Cube</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<CubeDefinition>
+				<CubeTopology>Slope</CubeTopology>
+				<ShowEdges>false</ShowEdges>
+				<Sides>
+					<Side Model="Models\Base\Face_Slope_Small.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_LeftTriangle_Small.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_RightTriangle_Small.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_Square_Small.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_Square_Small.mwm" PatternWidth="1" PatternHeight="1" />
+				</Sides>
+			</CubeDefinition>
+			<Components>
+				<Component Subtype="SteelPlate" Count="3" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\armor\SlopePlateConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\armor\SlopePlateConstruction_2.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>BlastDoorSlope</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0.0</DeformationRatio>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<EdgeType>Light</EdgeType>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlockBlastDoorCorner</SubtypeId>
+			</Id>
+			<DisplayName>Blast door block corner</DisplayName>
+			<Icon>Textures\Icons\BaseCorner.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>Cube</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<CubeDefinition>
+				<CubeTopology>Corner</CubeTopology>
+				<ShowEdges>false</ShowEdges>
+				<Sides>
+					<Side Model="Models\Base\Face_LeftTriangle_Small.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_RightTriangle_Small.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_CenterTriangle_Small.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_LeftTriangle_Small.mwm" PatternWidth="1" PatternHeight="1" />
+				</Sides>
+			</CubeDefinition>
+			<Components>
+				<Component Subtype="SteelPlate" Count="3" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\armor\FaceTrianglePlateConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\armor\FaceTrianglePlateConstruction_2.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>BlastDoorCorner</BlockPairName>
+			<MirroringX>YHalfX</MirroringX>
+			<MirroringY>ZHalfY</MirroringY>
+			<MirroringZ>YHalfY</MirroringZ>
+			<DeformationRatio>0.0</DeformationRatio>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<EdgeType>Light</EdgeType>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlockBlastDoorCornerInv</SubtypeId>
+			</Id>
+			<DisplayName>Blast door block inverted corner</DisplayName>
+			<Icon>Textures\Icons\BaseInvCorner.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>Cube</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<CubeDefinition>
+				<CubeTopology>InvCorner</CubeTopology>
+				<ShowEdges>false</ShowEdges>
+				<Sides>
+					<Side Model="Models\Base\Face_CenterInvTriangle_Small.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_RightTriangle_Small.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_LeftTriangle_Small.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_LeftTriangle_Small.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_Square_Small.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_Square_Small.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Base\Face_Square_Small.mwm" PatternWidth="1" PatternHeight="1" />
+				</Sides>
+			</CubeDefinition>
+			<Components>
+				<Component Subtype="SteelPlate" Count="3" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\armor\InvFaceTrianglePlateConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\armor\InvFaceTrianglePlateConstruction_2.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>BlastDoorInvCorner</BlockPairName>
+			<MirroringX>YHalfX</MirroringX>
+			<MirroringY>ZHalfY</MirroringY>
+			<MirroringZ>YHalfZ</MirroringZ>
+			<DeformationRatio>0.0</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<EdgeType>Light</EdgeType>
+		</Definition>
+
+	</CubeBlocks>
+</Definitions>

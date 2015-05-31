@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions>
+	<CubeBlocks>
+		<!-- crossings -->
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorEdgeCrossingX</SubtypeId>
+			</Id>
+			<DisplayName>Blast door edge crossing X</DisplayName>
+			<Icon>Textures\Icons\BlastDoorEdgeCrossingX.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlastDoorEdgeCrossingX.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.40" EndX="1.00" EndY="0.60" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Bottom" StartX="0.30" StartY="0.00" EndX="0.70" EndY="0.30" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.30" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.70" StartY="0.30" EndX="1.00" EndY="0.70" />
+				<MountPoint Side="Front" StartX="0.40" StartY="0.00" EndX="0.60" EndY="0.40" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="0.70" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.30" EndX="0.30" EndY="0.70" />
+				<MountPoint Side="Left" StartX="0.30" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Top" StartX="0.30" StartY="0.70" EndX="0.70" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.70" />
+				<MountPoint Side="Front" StartX="0.40" StartY="0.60" EndX="0.60" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+			</MountPoints>
+			<BlockPairName>BlastDoorEdgeCrossingX</BlockPairName>
+			<MirroringX>None</MirroringX>
+			<MirroringY>None</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0.2</DeformationRatio>
+			<EdgeType>Heavy</EdgeType>
+			<BuildTimeSeconds>24</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorEdgeCrossingX</SubtypeId>
+			</Id>
+			<DisplayName>Blast door edge crossing X</DisplayName>
+			<Icon>Textures\Icons\BlastDoorEdgeCrossingX.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlastDoorEdgeCrossingX.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.40" EndX="1.00" EndY="0.60" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Bottom" StartX="0.30" StartY="0.00" EndX="0.70" EndY="0.30" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.30" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.70" StartY="0.30" EndX="1.00" EndY="0.70" />
+				<MountPoint Side="Front" StartX="0.40" StartY="0.00" EndX="0.60" EndY="0.40" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="0.70" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.30" EndX="0.30" EndY="0.70" />
+				<MountPoint Side="Left" StartX="0.30" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Top" StartX="0.30" StartY="0.70" EndX="0.70" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.70" />
+				<MountPoint Side="Front" StartX="0.40" StartY="0.60" EndX="0.60" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+			</MountPoints>
+			<BlockPairName>BlastDoorEdgeCrossingX</BlockPairName>
+			<MirroringX>None</MirroringX>
+			<MirroringY>None</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0.24</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<EdgeType>Light</EdgeType>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorInnerCrossingX</SubtypeId>
+			</Id>
+			<DisplayName>Blast door inner crossing X</DisplayName>
+			<Icon>Textures\Icons\BlastDoorInnerCrossingX.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlastDoorInnerCrossingX.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.00" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Top" StartX="0.10" StartY="0.00" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+			</MountPoints>
+			<BlockPairName>BlastDoorInnerCrossingX</BlockPairName>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0.2</DeformationRatio>
+			<EdgeType>Heavy</EdgeType>
+			<BuildTimeSeconds>24</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorInnerCrossingX</SubtypeId>
+			</Id>
+			<DisplayName>Blast door edge crossing X</DisplayName>
+			<Icon>Textures\Icons\BlastDoorInnerCrossingX.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlastDoorInnerCrossingX.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.00" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Top" StartX="0.10" StartY="0.00" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+			</MountPoints>
+			<BlockPairName>BlastDoorInnerCrossingX</BlockPairName>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0.24</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<EdgeType>Light</EdgeType>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorEdgeCrossingT</SubtypeId>
+			</Id>
+			<DisplayName>Blast door edge crossing T</DisplayName>
+			<Icon>Textures\Icons\BlastDoorEdgeCrossingT.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlastDoorEdgeCrossingT.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.40" EndX="1.00" EndY="0.60" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Bottom" StartX="0.30" StartY="0.00" EndX="0.70" EndY="0.30" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.30" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.70" StartY="0.30" EndX="1.00" EndY="0.70" />
+				<MountPoint Side="Front" StartX="0.40" StartY="0.00" EndX="0.60" EndY="0.40" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="0.70" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.30" EndX="0.30" EndY="0.70" />
+				<MountPoint Side="Left" StartX="0.30" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
+			</MountPoints>
+			<BlockPairName>BlastDoorEdgeCrossingT</BlockPairName>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0.2</DeformationRatio>
+			<EdgeType>Heavy</EdgeType>
+			<BuildTimeSeconds>24</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorEdgeCrossingT</SubtypeId>
+			</Id>
+			<DisplayName>Blast door edge crossing T</DisplayName>
+			<Icon>Textures\Icons\BlastDoorEdgeCrossingT.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlastDoorEdgeCrossingT.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.40" EndX="1.00" EndY="0.60" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Bottom" StartX="0.30" StartY="0.00" EndX="0.70" EndY="0.30" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.30" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.70" StartY="0.30" EndX="1.00" EndY="0.70" />
+				<MountPoint Side="Front" StartX="0.40" StartY="0.00" EndX="0.60" EndY="0.40" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="0.70" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.30" EndX="0.30" EndY="0.70" />
+				<MountPoint Side="Left" StartX="0.30" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
+			</MountPoints>
+			<BlockPairName>BlastDoorEdgeCrossingT</BlockPairName>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<DeformationRatio>0.24</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<EdgeType>Light</EdgeType>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorInnerCrossingT</SubtypeId>
+			</Id>
+			<DisplayName>Blast door inner crossing T</DisplayName>
+			<Icon>Textures\Icons\BlastDoorInnerCrossingT.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlastDoorInnerCrossingT.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.00" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Front" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+			</MountPoints>
+			<BlockPairName>BlastDoorInnerCrossingT</BlockPairName>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>None</MirroringZ>
+			<DeformationRatio>0.2</DeformationRatio>
+			<EdgeType>Heavy</EdgeType>
+			<BuildTimeSeconds>24</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorInnerCrossingT</SubtypeId>
+			</Id>
+			<DisplayName>Blast door edge crossing T</DisplayName>
+			<Icon>Textures\Icons\BlastDoorInnerCrossingT.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlastDoorInnerCrossingT.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.00" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Front" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+			</MountPoints>
+			<BlockPairName>BlastDoorInnerCrossingT</BlockPairName>
+			<MirroringX>None</MirroringX>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>None</MirroringZ>
+			<DeformationRatio>0.24</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<EdgeType>Light</EdgeType>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorEdgeCrossingL</SubtypeId>
+			</Id>
+			<DisplayName>Blast door edge crossing L</DisplayName>
+			<Icon>Textures\Icons\BlastDoorEdgeCrossingL.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlastDoorEdgeCrossingL.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.40" EndX="0.60" EndY="0.60" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.30" StartY="0.00" EndX="0.70" EndY="0.30" />
+				<MountPoint Side="Back" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.30" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.70" StartY="0.30" EndX="1.00" EndY="0.70" />
+				<MountPoint Side="Front" StartX="0.40" StartY="0.00" EndX="0.60" EndY="0.40" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="0.70" EndY="0.90" />
+			</MountPoints>
+			<BlockPairName>BlastDoorEdgeCrossingL</BlockPairName>
+			<MirroringX>HalfZ</MirroringX>
+			<MirroringY>MinusHalfZ</MirroringY>
+			<MirroringZ>YHalfZ</MirroringZ>
+			<DeformationRatio>0.2</DeformationRatio>
+			<EdgeType>Heavy</EdgeType>
+			<BuildTimeSeconds>24</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorEdgeCrossingL</SubtypeId>
+			</Id>
+			<DisplayName>Blast door edge crossing L</DisplayName>
+			<Icon>Textures\Icons\BlastDoorEdgeCrossingL.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlastDoorEdgeCrossingL.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.40" EndX="0.60" EndY="0.60" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.30" StartY="0.00" EndX="0.70" EndY="0.30" />
+				<MountPoint Side="Back" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.30" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.70" StartY="0.30" EndX="1.00" EndY="0.70" />
+				<MountPoint Side="Front" StartX="0.40" StartY="0.00" EndX="0.60" EndY="0.40" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="0.70" EndY="0.90" />
+			</MountPoints>
+			<BlockPairName>BlastDoorEdgeCrossingL</BlockPairName>
+			<MirroringX>HalfZ</MirroringX>
+			<MirroringY>MinusHalfZ</MirroringY>
+			<MirroringZ>YHalfZ</MirroringZ>
+			<DeformationRatio>0.24</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<EdgeType>Light</EdgeType>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlastDoorInnerCrossingL</SubtypeId>
+			</Id>
+			<DisplayName>Blast door inner crossing L</DisplayName>
+			<Icon>Textures\Icons\BlastDoorInnerCrossingL.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlastDoorInnerCrossingL.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="SteelPlate" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.00" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.10" EndX="0.90" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Front" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+			</MountPoints>
+			<BlockPairName>BlastDoorInnerCrossingL</BlockPairName>
+			<MirroringX>HalfZ</MirroringX>
+			<MirroringY>MinusHalfZ</MirroringY>
+			<MirroringZ>None</MirroringZ>
+			<DeformationRatio>0.2</DeformationRatio>
+			<EdgeType>Heavy</EdgeType>
+			<BuildTimeSeconds>24</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlastDoorInnerCrossingL</SubtypeId>
+			</Id>
+			<DisplayName>Blast door edge crossing L</DisplayName>
+			<Icon>Textures\Icons\BlastDoorInnerCrossingL.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlastDoorInnerCrossingL.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.00" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.10" EndX="0.90" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Front" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+			</MountPoints>
+			<BlockPairName>BlastDoorInnerCrossingL</BlockPairName>
+			<MirroringX>HalfZ</MirroringX>
+			<MirroringY>MinusHalfZ</MirroringY>
+			<MirroringZ>None</MirroringZ>
+			<DeformationRatio>0.24</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>2.5</DisassembleRatio>
+			<EdgeType>Light</EdgeType>
+		</Definition>
+
+		<!-- slanted sideways -->
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlockBlastDoorSlantedSidewaysEdge</SubtypeId>
+			</Id>
+			<DisplayName>Blast door edge, short slanted sideways</DisplayName>
+			<Icon>Textures\Icons\BlastDoorSlantedSidewaysEdge.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlockBlastDoorSlantedSidewaysEdge.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="85" />
+				<Component Subtype="SteelPlate" Count="10" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.70" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.70" EndX="0.70" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.70" />
+				<MountPoint Side="Left" StartX="0.30" StartY="0.70" EndX="0.70" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.30" EndX="0.30" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.30" StartY="0.50" EndX="0.50" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.70" EndX="0.70" EndY="0.90" />
+				<MountPoint Side="Top" StartX="0.30" StartY="0.00" EndX="0.60" EndY="0.10" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.30" EndX="0.10" EndY="0.60" />
+				<MountPoint Side="Top" StartX="0.20" StartY="0.20" EndX="0.40" EndY="0.40" />
+				<MountPoint Side="Top" StartX="0.20" StartY="0.10" EndX="0.50" EndY="0.20" />
+				<MountPoint Side="Top" StartX="0.10" StartY="0.20" EndX="0.20" EndY="0.50" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorSlantedSidewaysEdge</BlockPairName>
+			<MirroringZ>HalfY</MirroringZ>
+			<MirroringX>MinusHalfY</MirroringX>
+			<MirroringY>ZHalfY</MirroringY>
+			<DeformationRatio>0.2</DeformationRatio>
+			<EdgeType>Heavy</EdgeType>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<Public>true</Public>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlockBlastDoorSlantedSidewaysEdge</SubtypeId>
+			</Id>
+			<DisplayName>Blast door edge, short slanted sideways</DisplayName>
+			<Icon>Textures\Icons\BlastDoorSlantedSidewaysEdge.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlockBlastDoorSlantedSidewaysEdge.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.70" />
+				<MountPoint Side="Back" StartX="0.30" StartY="0.70" EndX="0.70" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.70" />
+				<MountPoint Side="Left" StartX="0.30" StartY="0.70" EndX="0.70" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.30" EndX="0.30" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.30" StartY="0.50" EndX="0.50" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.70" EndX="0.70" EndY="0.90" />
+				<MountPoint Side="Top" StartX="0.30" StartY="0.00" EndX="0.60" EndY="0.10" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.30" EndX="0.10" EndY="0.60" />
+				<MountPoint Side="Top" StartX="0.20" StartY="0.20" EndX="0.40" EndY="0.40" />
+				<MountPoint Side="Top" StartX="0.20" StartY="0.10" EndX="0.50" EndY="0.20" />
+				<MountPoint Side="Top" StartX="0.10" StartY="0.20" EndX="0.20" EndY="0.50" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorSlantedSidewaysEdge</BlockPairName>
+			<MirroringZ>HalfY</MirroringZ>
+			<MirroringX>MinusHalfY</MirroringX>
+			<MirroringY>ZHalfY</MirroringY>
+			<EdgeType>Heavy</EdgeType>
+			<DeformationRatio>0.24</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<Public>true</Public>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>LargeBlockBlastDoorSlantedSideways</SubtypeId>
+			</Id>
+			<DisplayName>Blast door inner, short slanted sideways</DisplayName>
+			<Icon>Textures\Icons\BlastDoorSlantedSideways.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\LargeBlockBlastDoorSlantedSideways.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="85" />
+				<Component Subtype="SteelPlate" Count="10" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.30" EndX="0.30" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.30" StartY="0.50" EndX="0.50" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.70" EndX="0.70" EndY="0.90" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Top" StartX="0.10" StartY="0.10" EndX="0.30" EndY="0.70" />
+				<MountPoint Side="Top" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Top" StartX="0.30" StartY="0.10" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Top" StartX="0.50" StartY="0.10" EndX="0.70" EndY="0.30" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.10" StartY="0.00" EndX="0.90" EndY="1.00" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorSlantedSideways</BlockPairName>
+			<MirroringZ>HalfY</MirroringZ>
+			<MirroringX>MinusHalfY</MirroringX>
+			<MirroringY>None</MirroringY>
+			<DeformationRatio>0.2</DeformationRatio>
+			<EdgeType>Heavy</EdgeType>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<Public>true</Public>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>SmallBlockBlastDoorSlantedSideways</SubtypeId>
+			</Id>
+			<DisplayName>Blast door inner, short slanted sideways</DisplayName>
+			<Icon>Textures\Icons\BlastDoorSlantedSideways.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\SmallBlockBlastDoorSlantedSideways.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="1" />
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.30" EndX="0.30" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.30" StartY="0.50" EndX="0.50" EndY="0.90" />
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.70" EndX="0.70" EndY="0.90" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Top" StartX="0.10" StartY="0.10" EndX="0.30" EndY="0.70" />
+				<MountPoint Side="Top" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Top" StartX="0.30" StartY="0.10" EndX="0.50" EndY="0.50" />
+				<MountPoint Side="Top" StartX="0.50" StartY="0.10" EndX="0.70" EndY="0.30" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.10" StartY="0.00" EndX="0.90" EndY="1.00" />
+			</MountPoints>
+			<PhysicsOption>Convex</PhysicsOption>
+			<BlockPairName>BlastDoorSlantedSideways</BlockPairName>
+			<MirroringZ>HalfY</MirroringZ>
+			<MirroringX>MinusHalfY</MirroringX>
+			<MirroringY>None</MirroringY>
+			<EdgeType>Heavy</EdgeType>
+			<DeformationRatio>0.24</DeformationRatio>
+			<BuildTimeSeconds>3</BuildTimeSeconds>
+			<DisassembleRatio>3</DisassembleRatio>
+			<Public>true</Public>
+		</Definition>
+
+	</CubeBlocks>
+</Definitions>
