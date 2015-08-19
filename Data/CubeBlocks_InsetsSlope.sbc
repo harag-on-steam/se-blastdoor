@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions>
 	<CubeBlocks>
 
 		<Definition>
@@ -8,12 +8,12 @@
 				<SubtypeId>LargeBlockBlastDoorSlanted</SubtypeId>
 			</Id>
 			<DisplayName>Blast door slanted, slope inset</DisplayName>
-			<Icon>Textures\GUI\Icons\InsetSlantedLong.dds</Icon>
+			<Icon>Textures\Icons\BlastDoorSlanted.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Large\Inset\SlantedLong.mwm</Model>
+			<Model>Models\LargeBlockBlastDoorSlanted.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>
 				<Component Subtype="SteelPlate" Count="85" />
@@ -21,15 +21,20 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="1" />
 			<MountPoints>
-				<MountPoint Side="Left" StartX="0.1" StartY="0.0" EndX="0.6" EndY="0.4" />
-				<MountPoint Side="Left" StartX="0.6" StartY="0.0" EndX="1.0" EndY="0.9" />
-				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="0.4" EndY="0.9" />
-				<MountPoint Side="Right" StartX="0.4" StartY="0.0" EndX="0.9" EndY="0.4" />
-				<MountPoint Side="Back" StartX="0.0" StartY="0.1" EndX="1.0" EndY="0.9" />
-				<MountPoint Side="Bottom" StartX="0.0" StartY="0.1" EndX="1.0" EndY="0.9" />
+				<MountPoint Side="Left" StartX="0.10" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.30" StartY="0.10" EndX="0.60" EndY="0.40" />
+				<MountPoint Side="Left" StartX="0.60" StartY="0.10" EndX="0.90" EndY="0.70" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.40" StartY="0.10" EndX="0.70" EndY="0.40" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.10" EndX="0.40" EndY="0.70" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
 			</MountPoints>
 			<BlockPairName>BlastDoorSlanted</BlockPairName>
-			<MirroringY>Z</MirroringY>
+			<MirroringX>None</MirroringX>
+			<MirroringY>HalfX</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<DeformationRatio>0.2</DeformationRatio>
 			<EdgeType>Heavy</EdgeType>
@@ -44,12 +49,12 @@
 				<SubtypeId>SmallBlockBlastDoorSlanted</SubtypeId>
 			</Id>
 			<DisplayName>Blast door slanted, slope inset</DisplayName>
-			<Icon>Textures\GUI\Icons\InsetSlantedLong.dds</Icon>
+			<Icon>Textures\Icons\BlastDoorSlanted.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Small\Inset\SlantedLong.mwm</Model>
+			<Model>Models\SmallBlockBlastDoorSlanted.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>
 				<Component Subtype="SteelPlate" Count="2" />
@@ -57,15 +62,20 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="1" />
 			<MountPoints>
-				<MountPoint Side="Left" StartX="0.1" StartY="0.0" EndX="0.6" EndY="0.4" />
-				<MountPoint Side="Left" StartX="0.6" StartY="0.0" EndX="1.0" EndY="0.9" />
-				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="0.4" EndY="0.9" />
-				<MountPoint Side="Right" StartX="0.4" StartY="0.0" EndX="0.9" EndY="0.4" />
-				<MountPoint Side="Back" StartX="0.0" StartY="0.1" EndX="1.0" EndY="0.9" />
-				<MountPoint Side="Bottom" StartX="0.0" StartY="0.1" EndX="1.0" EndY="0.9" />
+				<MountPoint Side="Left" StartX="0.10" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.30" StartY="0.10" EndX="0.60" EndY="0.40" />
+				<MountPoint Side="Left" StartX="0.60" StartY="0.10" EndX="0.90" EndY="0.70" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.40" StartY="0.10" EndX="0.70" EndY="0.40" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.10" EndX="0.40" EndY="0.70" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
 			</MountPoints>
 			<BlockPairName>BlastDoorSlanted</BlockPairName>
-			<MirroringY>Z</MirroringY>
+			<MirroringX>None</MirroringX>
+			<MirroringY>HalfX</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Heavy</EdgeType>
 			<DeformationRatio>0.24</DeformationRatio>
@@ -80,12 +90,12 @@
 				<SubtypeId>LargeBlockBlastDoorSlantedShort</SubtypeId>
 			</Id>
 			<DisplayName>Blast door slanted, side inset</DisplayName>
-			<Icon>Textures\GUI\Icons\InsetSlantedShort.dds</Icon>
+			<Icon>Textures\Icons\BlastDoorSlantedShort.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Large\Inset\SlantedShort.mwm</Model>
+			<Model>Models\LargeBlockBlastDoorSlantedShort.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>
 				<Component Subtype="SteelPlate" Count="85" />
@@ -93,13 +103,18 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="1" />
 			<MountPoints>
-				<MountPoint Side="Left" StartX="0.1" StartY="0.1" EndX="0.6" EndY="0.5" />
-				<MountPoint Side="Left" StartX="0.6" StartY="0.1" EndX="1.0" EndY="1.0" />
-				<MountPoint Side="Right" StartX="0.0" StartY="0.1" EndX="0.4" EndY="1.0" />
-				<MountPoint Side="Right" StartX="0.4" StartY="0.1" EndX="0.9" EndY="0.5" />
-				<MountPoint Side="Back" StartX="0.0" StartY="0.1" EndX="1.0" EndY="0.9" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Left" StartX="0.20" StartY="0.10" EndX="0.50" EndY="0.40" />
+				<MountPoint Side="Left" StartX="0.50" StartY="0.10" EndX="0.80" EndY="0.70" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.80" StartY="0.10" EndX="0.90" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.10" EndX="0.80" EndY="0.40" />
+				<MountPoint Side="Right" StartX="0.20" StartY="0.10" EndX="0.50" EndY="0.70" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.10" EndX="0.20" EndY="0.90" />
 			</MountPoints>
 			<BlockPairName>BlastDoorSlantedShort</BlockPairName>
+			<MirroringX>None</MirroringX>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<DeformationRatio>0.2</DeformationRatio>
@@ -115,12 +130,12 @@
 				<SubtypeId>SmallBlockBlastDoorSlantedShort</SubtypeId>
 			</Id>
 			<DisplayName>Blast door slanted, side inset</DisplayName>
-			<Icon>Textures\GUI\Icons\InsetSlantedShort.dds</Icon>
+			<Icon>Textures\Icons\BlastDoorSlantedShort.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Small\Inset\SlantedShort.mwm</Model>
+			<Model>Models\SmallBlockBlastDoorSlantedShort.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>
 				<Component Subtype="SteelPlate" Count="2" />
@@ -128,13 +143,18 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="1" />
 			<MountPoints>
-				<MountPoint Side="Left" StartX="0.1" StartY="0.1" EndX="0.6" EndY="0.5" />
-				<MountPoint Side="Left" StartX="0.6" StartY="0.1" EndX="1.0" EndY="1.0" />
-				<MountPoint Side="Right" StartX="0.0" StartY="0.1" EndX="0.4" EndY="1.0" />
-				<MountPoint Side="Right" StartX="0.4" StartY="0.1" EndX="0.9" EndY="0.5" />
-				<MountPoint Side="Back" StartX="0.0" StartY="0.1" EndX="1.0" EndY="0.9" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.90" EndY="0.10" />
+				<MountPoint Side="Left" StartX="0.20" StartY="0.10" EndX="0.50" EndY="0.40" />
+				<MountPoint Side="Left" StartX="0.50" StartY="0.10" EndX="0.80" EndY="0.70" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.80" StartY="0.10" EndX="0.90" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0.10" EndX="0.80" EndY="0.40" />
+				<MountPoint Side="Right" StartX="0.20" StartY="0.10" EndX="0.50" EndY="0.70" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.10" EndX="0.20" EndY="0.90" />
 			</MountPoints>
 			<BlockPairName>BlastDoorSlantedShort</BlockPairName>
+			<MirroringX>None</MirroringX>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Heavy</EdgeType>
@@ -150,12 +170,12 @@
 				<SubtypeId>LargeBlockBlastDoorSlantedSide</SubtypeId>
 			</Id>
 			<DisplayName>Blast door slanted, triangle side inset</DisplayName>
-			<Icon>Textures\GUI\Icons\InsetSlantedSide.dds</Icon>
+			<Icon>Textures\Icons\BlastDoorSlantedSide.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Large\Inset\SlantedSide.mwm</Model>
+			<Model>Models\LargeBlockBlastDoorSlantedSide.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>
 				<Component Subtype="SteelPlate" Count="85" />
@@ -163,17 +183,17 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="1" />
 			<MountPoints>
-				<MountPoint Side="Right"  StartX="0.0" StartY="0.0" EndX="0.1" EndY="1.0" />
-				<MountPoint Side="Right"  StartX="0.1" StartY="0.0" EndX="0.5" EndY="0.7" />
-				<MountPoint Side="Right"  StartX="0.5" StartY="0.0" EndX="0.7" EndY="0.5" />
-				<MountPoint Side="Right"  StartX="0.7" StartY="0.0" EndX="1.0" EndY="0.1" />
-				<MountPoint Side="Back"   StartX="0.1" StartY="0.0" EndX="1.0" EndY="1.0" />
-				<MountPoint Side="Bottom" StartX="0.1" StartY="0.0" EndX="1.0" EndY="1.0" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.40" StartY="0.10" EndX="0.70" EndY="0.40" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.10" EndX="0.40" EndY="0.70" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="0.10" EndY="1.00" />
 			</MountPoints>
 			<BlockPairName>BlastDoorSlantedSide</BlockPairName>
 			<MirroringX>ZHalfX</MirroringX>
 			<MirroringY>HalfX</MirroringY>
-			<MirroringZ>XHalfX</MirroringZ>
+			<MirroringZ>MinusHalfX</MirroringZ>
 			<DeformationRatio>0.2</DeformationRatio>
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>20</BuildTimeSeconds>
@@ -187,12 +207,12 @@
 				<SubtypeId>SmallBlockBlastDoorSlantedSide</SubtypeId>
 			</Id>
 			<DisplayName>Blast door slanted, triangle side inset</DisplayName>
-			<Icon>Textures\GUI\Icons\InsetSlantedSide.dds</Icon>
+			<Icon>Textures\Icons\BlastDoorSlantedSide.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Small\Inset\SlantedSide.mwm</Model>
+			<Model>Models\SmallBlockBlastDoorSlantedSide.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>
 				<Component Subtype="SteelPlate" Count="2" />
@@ -200,17 +220,17 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="1" />
 			<MountPoints>
-				<MountPoint Side="Right"  StartX="0.0" StartY="0.0" EndX="0.1" EndY="1.0" />
-				<MountPoint Side="Right"  StartX="0.1" StartY="0.0" EndX="0.5" EndY="0.7" />
-				<MountPoint Side="Right"  StartX="0.5" StartY="0.0" EndX="0.7" EndY="0.5" />
-				<MountPoint Side="Right"  StartX="0.7" StartY="0.0" EndX="1.0" EndY="0.1" />
-				<MountPoint Side="Back"   StartX="0.1" StartY="0.0" EndX="1.0" EndY="1.0" />
-				<MountPoint Side="Bottom" StartX="0.1" StartY="0.0" EndX="1.0" EndY="1.0" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.10" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Right" StartX="0.40" StartY="0.10" EndX="0.70" EndY="0.40" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.10" EndX="0.40" EndY="0.70" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="0.10" EndY="1.00" />
 			</MountPoints>
 			<BlockPairName>BlastDoorSlantedSide</BlockPairName>
 			<MirroringX>ZHalfX</MirroringX>
 			<MirroringY>HalfX</MirroringY>
-			<MirroringZ>XHalfX</MirroringZ>
+			<MirroringZ>MinusHalfX</MirroringZ>
 			<EdgeType>Heavy</EdgeType>
 			<DeformationRatio>0.24</DeformationRatio>
 			<BuildTimeSeconds>3</BuildTimeSeconds>

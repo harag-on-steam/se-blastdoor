@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions>
 	<CubeBlocks>
 
 		<!-- insets ramp -->
@@ -10,12 +10,12 @@
 				<SubtypeId>LargeBlastDoorInsetRampSlope</SubtypeId>
 			</Id>
 			<DisplayName>Blast door ramp, slope inset</DisplayName>
-			<Icon>Textures\GUI\Icons\InsetRampSlope.dds</Icon>
+			<Icon>Textures\Icons\BlastDoorInsetRampSlope.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="2" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Large\Inset\Ramp_Slope.mwm</Model>
+			<Model>Models\LargeBlastDoorInsetRampSlope.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>
 				<Component Subtype="SteelPlate" Count="125" />
@@ -23,17 +23,22 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0" />
 			<MountPoints>
-				<MountPoint Side="Back"   StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.90" />
-				<MountPoint Side="Left"   StartX="0.10" StartY="0.00" EndX="0.66" EndY="0.20" />
-				<MountPoint Side="Left"   StartX="0.66" StartY="0.00" EndX="1.33" EndY="0.55" />
-				<MountPoint Side="Left"   StartX="1.33" StartY="0.00" EndX="2.00" EndY="0.90" />
-				<MountPoint Side="Right"  StartX="0.00" StartY="0.00" EndX="0.66" EndY="0.90" />
-				<MountPoint Side="Right"  StartX="0.66" StartY="0.00" EndX="1.33" EndY="0.55" />
-				<MountPoint Side="Right"  StartX="1.33" StartY="0.00" EndX="1.90" EndY="0.20" />
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="1.00" EndY="2.00" />
+				<MountPoint Side="Right" StartX="0.80" StartY="0.00" EndX="1.20" EndY="0.40" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.40" EndY="0.80" />
+				<MountPoint Side="Right" StartX="0.40" StartY="0.00" EndX="0.80" EndY="0.60" />
+				<MountPoint Side="Right" StartX="1.20" StartY="0.00" EndX="1.60" EndY="0.20" />
+				<MountPoint Side="Right" StartX="1.60" StartY="0.00" EndX="1.90" EndY="0.10" />
+				<MountPoint Side="Left" StartX="0.80" StartY="0.00" EndX="1.20" EndY="0.40" />
+				<MountPoint Side="Left" StartX="1.60" StartY="0.00" EndX="2.00" EndY="0.80" />
+				<MountPoint Side="Left" StartX="1.20" StartY="0.00" EndX="1.60" EndY="0.60" />
+				<MountPoint Side="Left" StartX="0.40" StartY="0.00" EndX="0.80" EndY="0.20" />
+				<MountPoint Side="Left" StartX="0.10" StartY="0.00" EndX="0.40" EndY="0.10" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorInsetRampSlope</BlockPairName>
+			<MirroringX>None</MirroringX>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Light</EdgeType>
@@ -48,12 +53,12 @@
 				<SubtypeId>SmallBlastDoorInsetRampSlope</SubtypeId>
 			</Id>
 			<DisplayName>Blast door ramp, slope inset</DisplayName>
-			<Icon>Textures\GUI\Icons\InsetRampSlope.dds</Icon>
+			<Icon>Textures\Icons\BlastDoorInsetRampSlope.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="2" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Small\Inset\Ramp_Slope.mwm</Model>
+			<Model>Models\SmallBlastDoorInsetRampSlope.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>
 				<Component Subtype="SteelPlate" Count="3" />
@@ -61,17 +66,22 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0" />
 			<MountPoints>
-				<MountPoint Side="Back"   StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.90" />
-				<MountPoint Side="Left"   StartX="0.10" StartY="0.00" EndX="0.66" EndY="0.20" />
-				<MountPoint Side="Left"   StartX="0.66" StartY="0.00" EndX="1.33" EndY="0.55" />
-				<MountPoint Side="Left"   StartX="1.33" StartY="0.00" EndX="2.00" EndY="0.90" />
-				<MountPoint Side="Right"  StartX="0.00" StartY="0.00" EndX="0.66" EndY="0.90" />
-				<MountPoint Side="Right"  StartX="0.66" StartY="0.00" EndX="1.33" EndY="0.55" />
-				<MountPoint Side="Right"  StartX="1.33" StartY="0.00" EndX="1.90" EndY="0.20" />
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="1.00" EndY="2.00" />
+				<MountPoint Side="Right" StartX="0.80" StartY="0.00" EndX="1.20" EndY="0.40" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.40" EndY="0.80" />
+				<MountPoint Side="Right" StartX="0.40" StartY="0.00" EndX="0.80" EndY="0.60" />
+				<MountPoint Side="Right" StartX="1.20" StartY="0.00" EndX="1.60" EndY="0.20" />
+				<MountPoint Side="Right" StartX="1.60" StartY="0.00" EndX="1.90" EndY="0.10" />
+				<MountPoint Side="Left" StartX="0.80" StartY="0.00" EndX="1.20" EndY="0.40" />
+				<MountPoint Side="Left" StartX="1.60" StartY="0.00" EndX="2.00" EndY="0.80" />
+				<MountPoint Side="Left" StartX="1.20" StartY="0.00" EndX="1.60" EndY="0.60" />
+				<MountPoint Side="Left" StartX="0.40" StartY="0.00" EndX="0.80" EndY="0.20" />
+				<MountPoint Side="Left" StartX="0.10" StartY="0.00" EndX="0.40" EndY="0.10" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorInsetRampSlope</BlockPairName>
+			<MirroringX>None</MirroringX>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Light</EdgeType>
@@ -86,12 +96,12 @@
 				<SubtypeId>LargeBlastDoorInsetRampLeft</SubtypeId>
 			</Id>
 			<DisplayName>Blast door ramp, left inset</DisplayName>
-			<Icon>Textures\GUI\Icons\InsetRampLeft.dds</Icon>
+			<Icon>Textures\Icons\BlastDoorInsetRampLeft.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="2" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Large\Inset\Ramp_Left.mwm</Model>
+			<Model>Models\LargeBlastDoorInsetRampLeft.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>
 				<Component Subtype="SteelPlate" Count="125" />
@@ -99,14 +109,18 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0" />
 			<MountPoints>
-				<MountPoint Side="Back"   StartX="0.10" StartY="0.00" EndX="1.00" EndY="1.00" />
-				<MountPoint Side="Right"  StartX="0.00" StartY="0.00" EndX="0.66" EndY="0.90" />
-				<MountPoint Side="Right"  StartX="0.66" StartY="0.00" EndX="1.33" EndY="0.55" />
-				<MountPoint Side="Right"  StartX="1.33" StartY="0.00" EndX="1.90" EndY="0.20" />
 				<MountPoint Side="Bottom" StartX="0.10" StartY="0.00" EndX="1.00" EndY="2.00" />
+				<MountPoint Side="Right" StartX="0.80" StartY="0.00" EndX="1.20" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.40" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.40" StartY="0.00" EndX="0.80" EndY="0.70" />
+				<MountPoint Side="Right" StartX="1.20" StartY="0.00" EndX="1.60" EndY="0.30" />
+				<MountPoint Side="Right" StartX="1.60" StartY="0.00" EndX="2.00" EndY="0.10" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorInsetRampLeft</BlockPairName>
+			<MirroringBlock>LargeBlastDoorInsetRampRight</MirroringBlock>
+			<MirroringX>None</MirroringX>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Light</EdgeType>
@@ -121,12 +135,12 @@
 				<SubtypeId>SmallBlastDoorInsetRampLeft</SubtypeId>
 			</Id>
 			<DisplayName>Blast door ramp, left inset</DisplayName>
-			<Icon>Textures\GUI\Icons\InsetRampLeft.dds</Icon>
+			<Icon>Textures\Icons\BlastDoorInsetRampLeft.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="2" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Small\Inset\Ramp_Left.mwm</Model>
+			<Model>Models\SmallBlastDoorInsetRampLeft.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>
 				<Component Subtype="SteelPlate" Count="3" />
@@ -134,14 +148,18 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0" />
 			<MountPoints>
-				<MountPoint Side="Back"   StartX="0.10" StartY="0.00" EndX="1.00" EndY="1.00" />
-				<MountPoint Side="Right"  StartX="0.00" StartY="0.00" EndX="0.66" EndY="0.90" />
-				<MountPoint Side="Right"  StartX="0.66" StartY="0.00" EndX="1.33" EndY="0.55" />
-				<MountPoint Side="Right"  StartX="1.33" StartY="0.00" EndX="1.90" EndY="0.20" />
 				<MountPoint Side="Bottom" StartX="0.10" StartY="0.00" EndX="1.00" EndY="2.00" />
+				<MountPoint Side="Right" StartX="0.80" StartY="0.00" EndX="1.20" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.40" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.40" StartY="0.00" EndX="0.80" EndY="0.70" />
+				<MountPoint Side="Right" StartX="1.20" StartY="0.00" EndX="1.60" EndY="0.30" />
+				<MountPoint Side="Right" StartX="1.60" StartY="0.00" EndX="2.00" EndY="0.10" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorInsetRampLeft</BlockPairName>
+			<MirroringBlock>SmallBlastDoorInsetRampRight</MirroringBlock>
+			<MirroringX>None</MirroringX>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Light</EdgeType>
@@ -156,12 +174,12 @@
 				<SubtypeId>LargeBlastDoorInsetRampRight</SubtypeId>
 			</Id>
 			<DisplayName>Blast door ramp, right inset</DisplayName>
-			<Icon>Textures\GUI\Icons\InsetRampRight.dds</Icon>
+			<Icon>Textures\Icons\BlastDoorInsetRampRight.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="2" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Large\Inset\Ramp_Right.mwm</Model>
+			<Model>Models\LargeBlastDoorInsetRampRight.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>
 				<Component Subtype="SteelPlate" Count="125" />
@@ -169,14 +187,18 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0" />
 			<MountPoints>
-				<MountPoint Side="Back"   StartX="0.00" StartY="0.00" EndX="0.90" EndY="1.00" />
-				<MountPoint Side="Left"   StartX="0.00" StartY="0.00" EndX="0.66" EndY="0.20" />
-				<MountPoint Side="Left"   StartX="0.66" StartY="0.00" EndX="1.33" EndY="0.55" />
-				<MountPoint Side="Left"   StartX="1.33" StartY="0.00" EndX="2.00" EndY="0.90" />
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.90" EndY="2.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.80" StartY="0.00" EndX="1.20" EndY="0.50" />
+				<MountPoint Side="Left" StartX="1.60" StartY="0.00" EndX="2.00" EndY="0.90" />
+				<MountPoint Side="Left" StartX="1.20" StartY="0.00" EndX="1.60" EndY="0.70" />
+				<MountPoint Side="Left" StartX="0.40" StartY="0.00" EndX="0.80" EndY="0.30" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.40" EndY="0.10" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorInsetRampRight</BlockPairName>
+			<MirroringBlock>LargeBlastDoorInsetRampLeft</MirroringBlock>
+			<MirroringX>None</MirroringX>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Light</EdgeType>
@@ -191,12 +213,12 @@
 				<SubtypeId>SmallBlastDoorInsetRampRight</SubtypeId>
 			</Id>
 			<DisplayName>Blast door ramp, right inset</DisplayName>
-			<Icon>Textures\GUI\Icons\InsetRampRight.dds</Icon>
+			<Icon>Textures\Icons\BlastDoorInsetRampRight.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="2" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Small\Inset\Ramp_Right.mwm</Model>
+			<Model>Models\SmallBlastDoorInsetRampRight.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>
 				<Component Subtype="SteelPlate" Count="3" />
@@ -204,14 +226,18 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0" />
 			<MountPoints>
-				<MountPoint Side="Back"   StartX="0.00" StartY="0.00" EndX="0.90" EndY="1.00" />
-				<MountPoint Side="Left"   StartX="0.00" StartY="0.00" EndX="0.66" EndY="0.20" />
-				<MountPoint Side="Left"   StartX="0.66" StartY="0.00" EndX="1.33" EndY="0.55" />
-				<MountPoint Side="Left"   StartX="1.33" StartY="0.00" EndX="2.00" EndY="0.90" />
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.90" EndY="2.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.80" StartY="0.00" EndX="1.20" EndY="0.50" />
+				<MountPoint Side="Left" StartX="1.60" StartY="0.00" EndX="2.00" EndY="0.90" />
+				<MountPoint Side="Left" StartX="1.20" StartY="0.00" EndX="1.60" EndY="0.70" />
+				<MountPoint Side="Left" StartX="0.40" StartY="0.00" EndX="0.80" EndY="0.30" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.40" EndY="0.10" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorInsetRampRight</BlockPairName>
+			<MirroringBlock>SmallBlastDoorInsetRampLeft</MirroringBlock>
+			<MirroringX>None</MirroringX>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Light</EdgeType>
@@ -226,12 +252,12 @@
 				<SubtypeId>LargeBlastDoorInsetRampBottom</SubtypeId>
 			</Id>
 			<DisplayName>Blast door ramp, bottom inset</DisplayName>
-			<Icon>Textures\GUI\Icons\InsetRampBottom.dds</Icon>
+			<Icon>Textures\Icons\BlastDoorInsetRampBottom.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="2" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Large\Inset\Ramp_Bottom.mwm</Model>
+			<Model>Models\LargeBlastDoorInsetRampBottom.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>
 				<Component Subtype="SteelPlate" Count="125" />
@@ -239,16 +265,19 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0" />
 			<MountPoints>
-				<MountPoint Side="Back"   StartX="0.00" StartY="0.10" EndX="1.00" EndY="1.00" />
-				<MountPoint Side="Left"   StartX="0.20" StartY="0.10" EndX="0.66" EndY="0.20" />
-				<MountPoint Side="Left"   StartX="0.66" StartY="0.10" EndX="1.33" EndY="0.55" />
-				<MountPoint Side="Left"   StartX="1.33" StartY="0.10" EndX="2.00" EndY="0.90" />
-				<MountPoint Side="Right"  StartX="0.00" StartY="0.10" EndX="0.66" EndY="0.90" />
-				<MountPoint Side="Right"  StartX="0.66" StartY="0.10" EndX="1.33" EndY="0.55" />
-				<MountPoint Side="Right"  StartX="1.33" StartY="0.00" EndX="1.80" EndY="0.20" />
+				<MountPoint Side="Right" StartX="0.80" StartY="0.10" EndX="1.20" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="0.40" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.40" StartY="0.10" EndX="0.80" EndY="0.70" />
+				<MountPoint Side="Right" StartX="1.20" StartY="0.10" EndX="1.60" EndY="0.30" />
+				<MountPoint Side="Left" StartX="0.80" StartY="0.10" EndX="1.20" EndY="0.50" />
+				<MountPoint Side="Left" StartX="1.60" StartY="0.10" EndX="2.00" EndY="0.90" />
+				<MountPoint Side="Left" StartX="1.20" StartY="0.10" EndX="1.60" EndY="0.70" />
+				<MountPoint Side="Left" StartX="0.40" StartY="0.10" EndX="0.80" EndY="0.30" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorInsetRampBottom</BlockPairName>
+			<MirroringX>None</MirroringX>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Light</EdgeType>
@@ -263,12 +292,12 @@
 				<SubtypeId>SmallBlastDoorInsetRampBottom</SubtypeId>
 			</Id>
 			<DisplayName>Blast door ramp, bottom inset</DisplayName>
-			<Icon>Textures\GUI\Icons\InsetRampBottom.dds</Icon>
+			<Icon>Textures\Icons\BlastDoorInsetRampBottom.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="2" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Small\Inset\Ramp_Bottom.mwm</Model>
+			<Model>Models\SmallBlastDoorInsetRampBottom.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>
 				<Component Subtype="SteelPlate" Count="3" />
@@ -276,16 +305,19 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0" />
 			<MountPoints>
-				<MountPoint Side="Back"   StartX="0.00" StartY="0.10" EndX="1.00" EndY="1.00" />
-				<MountPoint Side="Left"   StartX="0.20" StartY="0.10" EndX="0.66" EndY="0.20" />
-				<MountPoint Side="Left"   StartX="0.66" StartY="0.10" EndX="1.33" EndY="0.55" />
-				<MountPoint Side="Left"   StartX="1.33" StartY="0.10" EndX="2.00" EndY="0.90" />
-				<MountPoint Side="Right"  StartX="0.00" StartY="0.10" EndX="0.66" EndY="0.90" />
-				<MountPoint Side="Right"  StartX="0.66" StartY="0.10" EndX="1.33" EndY="0.55" />
-				<MountPoint Side="Right"  StartX="1.33" StartY="0.00" EndX="1.80" EndY="0.20" />
+				<MountPoint Side="Right" StartX="0.80" StartY="0.10" EndX="1.20" EndY="0.50" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.10" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.10" EndX="0.40" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.40" StartY="0.10" EndX="0.80" EndY="0.70" />
+				<MountPoint Side="Right" StartX="1.20" StartY="0.10" EndX="1.60" EndY="0.30" />
+				<MountPoint Side="Left" StartX="0.80" StartY="0.10" EndX="1.20" EndY="0.50" />
+				<MountPoint Side="Left" StartX="1.60" StartY="0.10" EndX="2.00" EndY="0.90" />
+				<MountPoint Side="Left" StartX="1.20" StartY="0.10" EndX="1.60" EndY="0.70" />
+				<MountPoint Side="Left" StartX="0.40" StartY="0.10" EndX="0.80" EndY="0.30" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorInsetRampBottom</BlockPairName>
+			<MirroringX>None</MirroringX>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Light</EdgeType>
@@ -300,12 +332,12 @@
 				<SubtypeId>LargeBlastDoorInsetRampBack</SubtypeId>
 			</Id>
 			<DisplayName>Blast door ramp, back inset</DisplayName>
-			<Icon>Textures\GUI\Icons\InsetRampBack.dds</Icon>
+			<Icon>Textures\Icons\BlastDoorInsetRampBack.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="2" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Large\Inset\Ramp_Back.mwm</Model>
+			<Model>Models\LargeBlastDoorInsetRampBack.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>
 				<Component Subtype="SteelPlate" Count="125" />
@@ -313,16 +345,21 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0" />
 			<MountPoints>
-				<MountPoint Side="Left"   StartX="0.00" StartY="0.00" EndX="0.66" EndY="0.20" />
-				<MountPoint Side="Left"   StartX="0.66" StartY="0.00" EndX="1.33" EndY="0.55" />
-				<MountPoint Side="Left"   StartX="1.33" StartY="0.00" EndX="1.90" EndY="0.90" />
-				<MountPoint Side="Right"  StartX="0.10" StartY="0.00" EndX="0.66" EndY="0.90" />
-				<MountPoint Side="Right"  StartX="0.66" StartY="0.00" EndX="1.33" EndY="0.55" />
-				<MountPoint Side="Right"  StartX="1.33" StartY="0.00" EndX="2.00" EndY="0.20" />
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.90" />
+				<MountPoint Side="Right" StartX="0.80" StartY="0.00" EndX="1.20" EndY="0.50" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.40" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.40" StartY="0.00" EndX="0.80" EndY="0.70" />
+				<MountPoint Side="Right" StartX="1.20" StartY="0.00" EndX="1.60" EndY="0.30" />
+				<MountPoint Side="Right" StartX="1.60" StartY="0.00" EndX="2.00" EndY="0.10" />
+				<MountPoint Side="Left" StartX="0.80" StartY="0.00" EndX="1.20" EndY="0.50" />
+				<MountPoint Side="Left" StartX="1.60" StartY="0.00" EndX="1.90" EndY="0.90" />
+				<MountPoint Side="Left" StartX="1.20" StartY="0.00" EndX="1.60" EndY="0.70" />
+				<MountPoint Side="Left" StartX="0.40" StartY="0.00" EndX="0.80" EndY="0.30" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.40" EndY="0.10" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorInsetRampBack</BlockPairName>
+			<MirroringX>None</MirroringX>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Light</EdgeType>
@@ -337,12 +374,12 @@
 				<SubtypeId>SmallBlastDoorInsetRampBack</SubtypeId>
 			</Id>
 			<DisplayName>Blast door ramp, back inset</DisplayName>
-			<Icon>Textures\GUI\Icons\InsetRampBack.dds</Icon>
+			<Icon>Textures\Icons\BlastDoorInsetRampBack.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="2" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Small\Inset\Ramp_Back.mwm</Model>
+			<Model>Models\SmallBlastDoorInsetRampBack.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>
 				<Component Subtype="SteelPlate" Count="3" />
@@ -350,16 +387,21 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0" />
 			<MountPoints>
-				<MountPoint Side="Left"   StartX="0.00" StartY="0.00" EndX="0.66" EndY="0.20" />
-				<MountPoint Side="Left"   StartX="0.66" StartY="0.00" EndX="1.33" EndY="0.55" />
-				<MountPoint Side="Left"   StartX="1.33" StartY="0.00" EndX="1.90" EndY="0.90" />
-				<MountPoint Side="Right"  StartX="0.10" StartY="0.00" EndX="0.66" EndY="0.90" />
-				<MountPoint Side="Right"  StartX="0.66" StartY="0.00" EndX="1.33" EndY="0.55" />
-				<MountPoint Side="Right"  StartX="1.33" StartY="0.00" EndX="2.00" EndY="0.20" />
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.90" />
+				<MountPoint Side="Right" StartX="0.80" StartY="0.00" EndX="1.20" EndY="0.50" />
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.40" EndY="0.90" />
+				<MountPoint Side="Right" StartX="0.40" StartY="0.00" EndX="0.80" EndY="0.70" />
+				<MountPoint Side="Right" StartX="1.20" StartY="0.00" EndX="1.60" EndY="0.30" />
+				<MountPoint Side="Right" StartX="1.60" StartY="0.00" EndX="2.00" EndY="0.10" />
+				<MountPoint Side="Left" StartX="0.80" StartY="0.00" EndX="1.20" EndY="0.50" />
+				<MountPoint Side="Left" StartX="1.60" StartY="0.00" EndX="1.90" EndY="0.90" />
+				<MountPoint Side="Left" StartX="1.20" StartY="0.00" EndX="1.60" EndY="0.70" />
+				<MountPoint Side="Left" StartX="0.40" StartY="0.00" EndX="0.80" EndY="0.30" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.40" EndY="0.10" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
 			<BlockPairName>BlastDoorInsetRampBack</BlockPairName>
+			<MirroringX>None</MirroringX>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Light</EdgeType>
